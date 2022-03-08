@@ -1,0 +1,17 @@
+
+Variables: Una variable es un contenedor de un valor que podremos utilizar mas tarde, 
+podemos guardar valores temporalmente que nosotros querramos,.
+Las 3 formas de decalar una variables son: var, let, const.
+
+Strings : en cualquier texto que lleve comillas simples ('') o dobles ("") se consideran Strings.
+
+Funciones: empezara con la palabra clave FUNCTION, luego escribimos el nombre que le querramos poner a esa
+funcion; ponemos parentesis abierto y cerrado donde iran los Argumentos; y por ultimo abrimos y cerramos corchetes donde iran
+los codigos para ejecutar.
+
+return: devuelve un valor por ejemplo dar un resultado si es true o false.
+
+if y else: if en españos sig 'si', donde da una condicion para validar si es correcto y else donde si
+no es correcto la condicion anterior siga a la segunda condicion.
+
+Valores booleanos: significa basicamente true o false.
