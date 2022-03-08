@@ -103,7 +103,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-    return x % y
+  return x % y
 }
 
 function esPar(num) {
@@ -162,7 +162,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random() *1
+  return Math.random()
 }
 
 function esPositivo(numero) {
@@ -183,7 +183,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-return str + "!"
+  return str + "!"
 }
 
 function combinarNombres(nombre, apellido) {
@@ -235,13 +235,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u" ) {
-    return "Es vocal"  
-  } else {
-    return "Es incorrecto"
-  } else if(letra.length > 1)
+  if(letra.length < 1) {
     return "Dato incorrecto"
-  } 
+  } else if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+    return "Es vocal"
+  } else {
+    return "Dato incorrecto"
+  }
+}
 
 // No modificar nada debajo de esta línea
 // --------------------------------
