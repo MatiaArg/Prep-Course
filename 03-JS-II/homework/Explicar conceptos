@@ -1,0 +1,17 @@
+For:
+es un bucle donde la palabra clave es FOR donde primero declararemos una variable , despues tenemos la 
+expresion condicional que es una condicion de frenado, cuando queremos q deje de ejecutarse 
+y por ultimo debemos incrementar la variable que se incrementara de a uno. No olvidemos separar
+las declaraciones con ';'.
+
+&& (Y)):
+Indica que AMBAS expresiones que tenemos tienen que ser true, con que halla una o dos expresiones false 
+devolvera false.
+
+|| (O):
+A diferencia de && con que halla una o las dos expresion true se devolvera TRUE, solo podra devolver false
+si ambas expresiones son false.
+
+! (no):
+Por ejemplo (!false) como tiene el signo '!' quiere decir que el contrario de false es true
+ por lo tanto devolvera TRUE.
