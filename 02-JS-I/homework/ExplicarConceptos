@@ -11,7 +11,8 @@ los codigos para ejecutar.
 
 return: devuelve un valor por ejemplo dar un resultado si es true o false.
 
-if y else: if en españos sig 'si', donde da una condicion para validar si es correcto y else donde si
-no es correcto la condicion anterior siga a la segunda condicion.
+if : if en españos sig 'si', donde da una condicion para validar si es correcto y sino es correcto 
+la condicion anterior que siga a la segunda condicion donde espera un valor booleano 
+(true, false).
 
 Valores booleanos: significa basicamente true o false.
