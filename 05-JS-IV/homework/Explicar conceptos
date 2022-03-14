@@ -1,0 +1,18 @@
+Objetos:
+Son otro tipo de contenedor de datos como lo son las 'ARRAYS'.
+los objetos  tienen un concepto llamadas pares de clave:valor ,la clave (**key**) es un identificar y el valor (**value**) es el valor de la clave;
+cuando tenemos la variante creada en vez de corchetes abriremos llaves {} donde adentro de ellas se estaran distaciando los objetos por coma, ya q los objetos tienen muchos pares de clave-valor.
+
+
+Propiedades:
+es un par de clave-valor ya que en este casa la prodiedad seria el nombre de la clave del objeto junto a un punto y seguido al nombre del valor.
+
+Métodos:
+Dominamos este metedo cuando contiene una funcion dentro de un objeto.
+
+Bucle `for…in`:
+Comenzara igual como el otro, con un 'for' pero entre parentesis despues de declarar nuestra variable 
+pondremeos la palabra clave 'in' seguido del nombre del objeto.
+
+Notación de puntos vs notación de corchetes:
+Ambos nos da la opcion de obtener los valores de un objetos, lo que tiene la notacion de puntos es que es facil y rapido de escribir ya q solo tenes que poner el nombre del objeto, un punto y el nombre de la propiedad, pero no podes intercalar con una variabe o recorrer un objeto como lo podes hacer la notacion de corchetes.
