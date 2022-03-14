@@ -1,4 +1,4 @@
-Array :
+Array o matrices :
 Nos permiten almacenar los tipos de datos (string, numeros y booleanos), despues de crear
 nuestra variable seguira las matrices [] donde sirvira como contenedores de almacenimietos para coleccionar
 datos, entonces dentro del contenedor estaran los strings, numeros o booleanos y finalmente acceder.
