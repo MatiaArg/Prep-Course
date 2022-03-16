@@ -1,0 +1,13 @@
+ `prototype`: Es un objeto que nos que da acceso a cada objeto de las clases. 
+
+ _Constructors_ (de Clases):
+ Los Constructores de clases se puede empezar con una funcion seguido con el nombre que le querramos 
+ poner a la clase, eso si, tiene que empezar con mayusculas; Despues entre parentesis pondremos Los
+ parametros como por ej (nombre, apellido), luego seguimos abrimos llaves y ponemos las propiedades 
+ donde el this va estar presente en el nombre y apellido (this.nombre, this.apellido),
+ nombre y apellido porque eso nos indica en el parametro.
+ Asi tenemos nuestro contructor y le podemos agregar metodos tambien.
+ 
+ Los Constructores tambien podemos empezar con la palabra Class seguido del nombre de la clase,
+ luego abrimos llaves y ponemos la otra palabra constructor donde estaran los parametros, por ultimo 
+ estaran las propiedades con el this hacia la izquiera y con un punto.
