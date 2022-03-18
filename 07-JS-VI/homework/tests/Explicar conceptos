@@ -1,0 +1,22 @@
+ Funciones Callbacks:  
+ Basicamente puede pasar una función como argumento a otra función.
+ 
+Usaremos la palabra 'cb' en este ejemplo para saber donde esta el Callbacks y de que manera lo invocamos:
+
+
+
+function saludo(persona) {
+    return 'Holaa ' + persona + ' tanto tiempo'
+}
+function despedida(persona){
+    return 'Adios ' + persona + ' que andes bien' 
+}
+function crearconver (persona, cb) {
+    return cb (persona)
+}
+
+crearconver ('carlos', despedida)
+'Adios carlos que andes bien'
+
+crearconver('carlos', saludo)
+'Holaa, carlos tanto tiempo'
