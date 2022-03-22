@@ -13,7 +13,7 @@ const nuevoBool = false;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -41,7 +41,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y - x
+  return x - y
 }
 
 function multiplica(x, y) {
@@ -69,7 +69,7 @@ function sonIguales(x, y) {
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
-  // De lo contrario, devuelve "false"
+  // De lo contrario, devuelve "false"º
   // Tu código:
   if(str1.length === str2.length) {
     return true
@@ -121,7 +121,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 6 === 1) {
+  if(num % 3 === 1) {
     return true
   } else { 
     return false
@@ -197,7 +197,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + nombre + "!"
+  return "Hola " + nombre + "!"
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
