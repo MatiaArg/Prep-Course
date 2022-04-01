@@ -6,6 +6,7 @@ cuando tenemos la variante creada en vez de corchetes abriremos llaves {} donde 
 
 Propiedades:
 es un par de clave-valor ya que en este casa la prodiedad seria el nombre de la clave del objeto junto a un punto y seguido al nombre del valor.
+Los valores pueden ser cualquier tipo de dato de Js, cadena, número, booleano, matriz, función u otro objeto.
 
 Métodos:
 Dominamos este metedo cuando contiene una funcion dentro de un objeto.
@@ -16,3 +17,14 @@ pondremeos la palabra clave 'in' seguido del nombre del objeto.
 
 Notación de puntos vs notación de corchetes:
 Ambos nos da la opcion de obtener los valores de un objetos, lo que tiene la notacion de puntos es que es facil y rapido de escribir ya q solo tenes que poner el nombre del objeto, un punto y el nombre de la propiedad, pero no podes intercalar con una variabe o recorrer un objeto como lo podes hacer la notacion de corchetes.
+
+Ej: 
+const obj = {
+    propiedad : 'valor'
+}
+
+const propiedad2 = 434
+
+console.log(obj.propiedad)     // dot notacion
+console.log(obj['propiedad'])  // bracket notacion
+console.los(obj[propiedad2])   // bracket notacion

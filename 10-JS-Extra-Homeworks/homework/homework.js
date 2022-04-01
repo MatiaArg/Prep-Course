@@ -10,6 +10,11 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  const newd = []
+  for (const key in objeto) {
+    newd.push(objeto,[key]) 
+  return newd 
+}
 }
 
 
@@ -18,6 +23,10 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  for (let i = 0; i < string.length; i++) {
+      string[i];
+    
+  }
 }
 
 
@@ -35,6 +44,13 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  str.reverse = function () {
+    const ssttrr = ""
+    for (let i = str.length -1; i <= 0; i--) {
+      ssttrr += [i];
+  }
+ return ssttrr
+}
 } 
 
 
@@ -50,6 +66,8 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  delete cadena[ "a", "b", "c" ]
+  return cadena
 }
 
 
@@ -66,6 +84,7 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
+
 }
 
 

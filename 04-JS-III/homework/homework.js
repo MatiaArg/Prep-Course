@@ -27,7 +27,7 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   for (let i = 0; i < array.length; i++) 
-      array[i]++
+      array[i] ++
   return array
  }
 
@@ -78,7 +78,7 @@ function agregarNumeros(numeros) {
   // Tu código:
   var sumarenteros = 0 
   for (let i = 0; i < numeros.length; i++) {
-       sumarenteros = sumarenteros + numeros[i]
+       sumarenteros += numeros[i]
   }
   return sumarenteros
 }
@@ -88,7 +88,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  return agregarNumeros (resultadosTest) / resultadosTest.length 
+  var sumar = 0
+  var i=0
+  while (i < resultadosTest.length) {
+    sumar += resultadosTest[i]
+    i++
+  } return sumar / resultadosTest.length
 }
 
 
@@ -96,11 +101,10 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var maximo = numeros [0]    
-  for (let i = 1; i < numeros.length; i++) 
-  if (numeros [i] > maximo) 
-     maximo = numeros [i]
-  return maximo  
+  var max = numeros [0]    
+  for (let i = 0; i < numeros.length; i++) 
+  if (numeros[i] > max) 
+    return  maximo = numeros [i]
 }
 
 
@@ -133,7 +137,7 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí
-  if (numeroDeDia ===1 || numeroDeDia === 7) {
+  if (numeroDeDia === 1 || numeroDeDia === 7) {
     return "Es fin de semana"
   } else {
     return "Es dia Laboral"
@@ -146,7 +150,7 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
   var nstr = n.toString()
-  if (nstr[0] == '9') {
+  if (nstr.charAt(0) === '9') {
    return true 
  } else {
    return false
@@ -188,10 +192,10 @@ function mayorACien(array) {
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
   // array [0 al 200]
-  const newarray = []
+  let newarray = []
   for (let i = 0; i < array.length; i++) {
-   if (array[i] > 100)
-   newarray.push(array[i])
+      if (array[i] > 100)
+      newarray.push(array[i])
   } return newarray
 }
 
@@ -204,19 +208,19 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  const arrayen2 = []
-  var varnum = numero
-  for (var i = 0; i < 10; i++) {
-      varnum += 2
-    if (varnum === i) break
-         arrayen2.push(varnum)
-  } if (i < 10) {
-   return "Se interrumpió la ejecución"
-    } else {
-  return arrayen2
+  var newarray = []
+   var cuentaendos = numero
+   for (var i = 0; i < 10; i++) {
+     cuentaendos += 2    
+    if (cuentaendos === i) break 
+       newarray.push(cuentaendos) 
+  } if (cuentaendos === i) {
+   return "Se interrumpió la ejecución" 
+   } else {
+   return newarray
   }
 }  
-
+ 
 
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.

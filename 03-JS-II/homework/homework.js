@@ -35,7 +35,7 @@ function conection(status) {
     return "Online"
   } if (status === 2) {
     return "Away"
-  } else (status <= 3)
+  } else (status <= 3) 
     return "Offline"
 }
 
@@ -66,15 +66,15 @@ function colors(color) {
   //Usar el statement Switch.
   switch(color) {
     case "blue":
-    return "This is blue"
+      return "This is blue"
     case "red":
-    return "This is red"
+      return "This is red"
     case "green":
-    return "This is green"
+      return "This is green"
     case "orange":
-    return "This is orange"
+      return "This is orange"
     default:
-    return "Color not found"
+      return "Color not found"
   }
 }
 
@@ -107,10 +107,10 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(numero === -10 || numero === 0.5) {
-    return false
-  } else {
+  if (Math.floor(numero) === numero) {
     return true
+  } else {
+    return false
   }
 }
 
@@ -156,13 +156,13 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  if (numero < 2 ) {
+  if (numero < 2) {
     return false
-  } for (var i = 2; i < numero; i++)
-    if (numero % i === 0) {
-    return false 
-  }
-   return true
+ } for (let i = 2; i < numero; i++) 
+    if(numero % i === 0) {
+    return false
+} 
+  return true
 }
 
 function esVerdadero(valor) {

@@ -8,12 +8,14 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-  function Usuario (opciones) {
+  class Usuario {
+    constructor (opciones)  {
     this.usuario = opciones.usuario
     this.nombre = opciones.nombre
     this.email = opciones.email
     this.password = opciones.password
   }
+}
   
   Usuario.prototype.saludar = function () {
     return 'Hola, mi nombre es ' + this.nombre
@@ -39,9 +41,8 @@ function agregarStringInvertida() {
   String.prototype.reverse = function () {
 
     var str = ""
-
-    for (let i = this.length - 1; i >= 0; i--) {
-      str += this[i]
+    for (let i = 0; i < this.length; i++) { 
+      str = this[i] + str
     }
     return str
   }
@@ -65,12 +66,11 @@ function agregarStringInvertida() {
       this.apellido = apellido
       this.edad = edad 
       this.domicilio = domicilio
-    
+    }
+    } 
      Persona.prototype.detalle = function () {
       return this.nombre + this.apellido + this.edad + this.domicilio
-        
-     }
-    }
+    
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
